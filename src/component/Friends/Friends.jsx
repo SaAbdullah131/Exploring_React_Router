@@ -4,7 +4,7 @@ import Friend from '../Friend/Friend';
 import './Friends.css';
 const Friends = () => {
     const  friends = useLoaderData();
-    console.log(friends);
+    // console.log(friends);
     return (
         <div>
             <h2>These Are My Friends: {friends.length}</h2>
